@@ -1,6 +1,6 @@
 {
   "name": "travis-apologize",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A pre-commit hook you can use to make devs apologize for breaking the build",
   "main": "index.js",
   "scripts": {
