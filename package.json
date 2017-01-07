@@ -1,0 +1,31 @@
+{
+  "name": "travis-apologize",
+  "version": "0.0.1",
+  "description": "A pre-commit hook you can use to make devs apologize for breaking the build",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint .",
+    "validate": "npm ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbvea/travis-apologize.git"
+  },
+  "author": "Russell Vea <russellbvea@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbvea/travis-apologize/issues"
+  },
+  "homepage": "https://github.com/rbvea/travis-apologize#readme",
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ],
+  "dependencies": {
+    "precommit-hook": "^3.0.0",
+    "sonus": "^0.1.4"
+  }
+}
