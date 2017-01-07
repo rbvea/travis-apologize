@@ -1,11 +1,10 @@
 {
   "name": "travis-apologize",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A pre-commit hook you can use to make devs apologize for breaking the build",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js --watch *.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "npm ls"
   },
   "repository": {
@@ -19,7 +18,7 @@
   },
   "homepage": "https://github.com/rbvea/travis-apologize#readme",
   "bin": {
-    "travis-apologize": "index.js"
+    "travis-apologize": "./index.js"
   },
   "dependencies": {
     "node-record-lpcm16": "^0.2.0",
