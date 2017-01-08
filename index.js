@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const record = require('node-record-lpcm16')
 const stream = require('stream')
 const { Detector, Models } = require('snowboy')
