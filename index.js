@@ -6,13 +6,13 @@ const { Detector, Models } = require('snowboy')
 const models = new Models()
 
 models.add({
-  file: 'travis.pmdl',
+  file: './travis.pmdl',
   sensitivity: '0.5',
   hotword: 'travis'
 })
 
 const detector = new Detector({
-  resource: "resources/common.res",
+  resource: "./resources/common.res",
   models: models,
   audioGain: 2.0
 });
