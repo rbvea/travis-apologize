@@ -18,10 +18,7 @@
   },
   "homepage": "https://github.com/rbvea/travis-apologize#readme",
   "directories": {
-    "bin": "resources"
-  },
-  "bin": {
-    "travis-apologize": "./index.js"
+    "bin": "bin"
   },
   "dependencies": {
     "node-record-lpcm16": "^0.2.0",
