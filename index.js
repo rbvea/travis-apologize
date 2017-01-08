@@ -6,7 +6,7 @@ const { Detector, Models } = require('snowboy')
 const models = new Models()
 
 models.add({
-  file: './travis.pmdl',
+  file: './resources/travis.pmdl',
   sensitivity: '0.5',
   hotword: 'travis'
 })

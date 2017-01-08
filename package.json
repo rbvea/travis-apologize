@@ -17,6 +17,9 @@
     "url": "https://github.com/rbvea/travis-apologize/issues"
   },
   "homepage": "https://github.com/rbvea/travis-apologize#readme",
+  "directories": {
+    "bin": "resources"
+  },
   "bin": {
     "travis-apologize": "./index.js"
   },
